@@ -1,0 +1,97 @@
+{
+  "graphType": "verticalGroupedBarChart",
+  "debugMode": true,
+  "dataSettings": {
+    "data": [
+      {
+        "Country": "Country A",
+        "Indicator1": 8,
+        "Indicator2": 20,
+        "Region": "Region A"
+      },
+      {
+        "Country": "Country B",
+        "Indicator1": 10,
+        "Indicator2": 16,
+        "Region": "Region B"
+      },
+      {
+        "Country": "Country C",
+        "Indicator1": 6,
+        "Indicator2": 10,
+        "Region": "Region C"
+      },
+      {
+        "Country": "Country D",
+        "Indicator1": 20,
+        "Indicator2": 8,
+        "Region": "Region A"
+      },
+      {
+        "Country": "Country E",
+        "Indicator1": 10,
+        "Indicator2": 12,
+        "Region": "Region B"
+      }
+    ]
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "label",
+      "columnId": "Country"
+    },
+    {
+      "chartConfigId": "size",
+      "columnId": ["Indicator1", "Indicator2"]
+    }
+  ],
+  "graphSettings": {
+    "graphID": "simpleBarChart1",
+    "graphTitle": "Simple Bar Chart Example",
+    "graphDescription": "This is a simple bar chart description.",
+    "footNote": "This is a footnote.",
+    "source": "Example Source",
+    "sourceLink": "https://example.com",
+    "truncateBy": 10,
+    "width": 600,
+    "height": 400,
+    "minHeight": 400,
+    "relativeHeight": 1.2,
+    "padding": "16px",
+    "topMargin": 24,
+    "bottomMargin": 20,
+    "leftMargin": 64,
+    "rightMargin": 40,
+    "maxBarThickness": 100,
+    "maxNumberOfBars": 10,
+    "minBarThickness": 24,
+    "barPadding": 0.2,
+    "suffix": "",
+    "prefix": "",
+    "mode": "light",
+    "backgroundColor": "#ffffff",
+    "colors": ["#006eb5", "#5DD4F0"],
+    "colorDomain": ["Indicator 1", "Indicator 2"],
+    "colorLegendTitle": "Indicators",
+    "showColorScale": true,
+    "labelOrder": [
+      "Country A",
+      "Country B",
+      "Country C",
+      "Country D",
+      "Country E"
+    ],
+    "sortParameter": 0,
+    "showLabels": true,
+    "showValues": false,
+    "showTicks": false,
+    "maxValue": 25,
+    "minValue": 0,
+    "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
+    "tooltip": "Indicator1: {{data.data.Indicator1}}<br>Indicator2: {{data.data.Indicator2}}",
+    "graphDownload": true,
+    "dataDownload": true,
+    "rtl": false,
+    "language": "en"
+  }
+}
