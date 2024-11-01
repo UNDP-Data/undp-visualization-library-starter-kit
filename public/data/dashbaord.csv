@@ -1,100 +1,20 @@
-Department,iso3,ID,staff_category,event_participant,topics,region_new,country_name
-CO,ABW,14390,Policy and Programme Personnel,0,N/A,RBLAC,Aruba
-CO,ABW,13876,N/A,0,N/A,RBLAC,Aruba
-CO,ABW,225,N/A,0,Gender,RBLAC,Aruba
-CO,AFG,5977,"Policy and Programme Personnel,CO Crisis Setting",0,"Health,Poverty",RBAP,Afghanistan
-CO,AFG,443,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,4749,"CO Crisis Setting,GPN",0,"Energy,Environment,Gender,Governance,Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,137,"CO Crisis Setting,GPN",0,Health,RBAP,Afghanistan
-CO,AFG,13511,"Policy and Programme Personnel,CO Crisis Setting,GPN",0,"Gender,Governance",RBAP,Afghanistan
-CO,AFG,13393,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,9051,CO Crisis Setting,0,Health,RBAP,Afghanistan
-CO,AFG,556,CO Crisis Setting,0,Integration,RBAP,Afghanistan
-CO,AFG,1998,CO Crisis Setting,N/A,"Integration,Poverty",RBAP,Afghanistan
-CO,AFG,13576,"CO Crisis Setting,GPN",N/A,Poverty,RBAP,Afghanistan
-CO,AFG,6219,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,9881,CO Crisis Setting,N/A,N/A,RBAP,Afghanistan
-CO,AFG,7880,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,168,"Policy and Programme Personnel,CO Crisis Setting,GPN",N/A,Health,RBAP,Afghanistan
-CO,AFG,10172,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,2062,"Policy and Programme Personnel,CO Crisis Setting",0,N/A,RBAP,Afghanistan
-CO,AFG,9918,"CO Crisis Setting,GPN",0,Resilience,RBAP,Afghanistan
-CO,AFG,4625,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,12843,CO Crisis Setting,N/A,N/A,RBAP,Afghanistan
-CO,AFG,154,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,999,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,4624,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,9448,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,7120,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,4570,CO Crisis Setting,0,"Health,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,7839,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,436,CO Crisis Setting,N/A,Health,RBAP,Afghanistan
-CO,AFG,15198,"Policy and Programme Personnel,CO Crisis Setting",N/A,"Health,Poverty",RBAP,Afghanistan
-CO,AFG,441,CO Crisis Setting,N/A,N/A,RBAP,Afghanistan
-CO,AFG,12515,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,1411,"Policy and Programme Personnel,CO Crisis Setting,GPN",0,"Integration,Poverty",RBAP,Afghanistan
-CO,AFG,9204,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,4520,"Policy and Programme Personnel,CO Crisis Setting",0,Environment,RBAP,Afghanistan
-CO,AFG,2677,CO Crisis Setting,0,"Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,13031,CO Crisis Setting,1,Health,RBAP,Afghanistan
-CO,AFG,9619,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,1672,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,5420,CO Crisis Setting,N/A,Integration,RBAP,Afghanistan
-CO,AFG,7966,CO Crisis Setting,2,Health,RBAP,Afghanistan
-CO,AFG,4577,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,7374,CO Crisis Setting,N/A,"Environment,Poverty",RBAP,Afghanistan
-CO,AFG,996,"CO Crisis Setting,GPN",0,"Energy,Environment,Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,12831,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,9769,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,9605,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,3750,"Policy and Programme Personnel,CO Crisis Setting,GPN",0,"Governance,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,451,"Policy and Programme Personnel,CO Crisis Setting",N/A,Health,RBAP,Afghanistan
-CO,AFG,345,"CO Crisis Setting,GPN",0,Energy,RBAP,Afghanistan
-CO,AFG,9621,CO Crisis Setting,0,Health,RBAP,Afghanistan
-CO,AFG,469,CO Crisis Setting,0,Poverty,RBAP,Afghanistan
-CO,AFG,12634,CO Crisis Setting,N/A,Health,RBAP,Afghanistan
-CO,AFG,10608,CO Crisis Setting,N/A,Health,RBAP,Afghanistan
-CO,AFG,9645,CO Crisis Setting,0,Health,RBAP,Afghanistan
-CO,AFG,4423,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,1756,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,1642,CO Crisis Setting,0,Integration,RBAP,Afghanistan
-CO,AFG,11266,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,5965,CO Crisis Setting,N/A,Gender,RBAP,Afghanistan
-CO,AFG,7092,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,3921,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,9643,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,871,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,10004,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,2491,CO Crisis Setting,0,"Energy,Environment,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,13443,CO Crisis Setting,1,"Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,2428,CO Crisis Setting,N/A,"Governance,Poverty",RBAP,Afghanistan
-CO,AFG,7422,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,14741,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,9625,CO Crisis Setting,N/A,Health,RBAP,Afghanistan
-CO,AFG,9639,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,11826,"CO Crisis Setting,GPN",0,N/A,RBAP,Afghanistan
-CO,AFG,14565,CO Crisis Setting,0,Poverty,RBAP,Afghanistan
-CO,AFG,11423,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,14665,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,3210,CO Crisis Setting,3,"Energy,Environment,Gender,Governance,Health,Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,4469,"Policy and Programme Personnel,CO Crisis Setting",0,N/A,RBAP,Afghanistan
-CO,AFG,14921,"CO Crisis Setting,GPN",0,"Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,885,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,9641,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,14873,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,14183,CO Crisis Setting,1,Poverty,RBAP,Afghanistan
-CO,AFG,11023,CO Crisis Setting,N/A,N/A,RBAP,Afghanistan
-CO,AFG,6664,CO Crisis Setting,N/A,"Governance,Resilience",RBAP,Afghanistan
-CO,AFG,2767,"CO Crisis Setting,GPN",1,Resilience,RBAP,Afghanistan
-CO,AFG,14556,"CO Crisis Setting,GPN",0,Integration,RBAP,Afghanistan
-CO,AFG,9650,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,12630,CO Crisis Setting,N/A,Health,RBAP,Afghanistan
-CO,AFG,9644,CO Crisis Setting,N/A,Health,RBAP,Afghanistan
-CO,AFG,12808,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,12836,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,4816,"CO Crisis Setting,GPN",1,"Environment,Governance,Health,Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,1859,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,442,CO Crisis Setting,N/A,Poverty,RBAP,Afghanistan
-CO,AFG,5768,CO Crisis Setting,0,"Energy,Environment,Gender,Governance,Integration,Poverty,Resilience",RBAP,Afghanistan
-CO,AFG,12628,CO Crisis Setting,0,N/A,RBAP,Afghanistan
-CO,AFG,2368,CO Crisis Setting,0,N/A,RBAP,Afghanistan
+Category,iso3,ID,staff_category,event_participant,topics,region,country_name
+NN,ABW,14390,Category A,0,N/A,Region A,Aruba
+NN,ABW,13876,N/A,0,N/A,Region A,Aruba
+NN,ABW,225,N/A,0,Gender,Region A,Aruba
+NN,AFG,5977,"Category A,Category B",0,"Health,Poverty",Region B,Afghanistan
+NN,AFG,443,Category B,0,N/A,Region B,Afghanistan
+NN,AFG,4749,"Category B,Category C",0,"Energy,Environment,Gender,Governance,Integration,Poverty,Resilience",Region B,Afghanistan
+NN,AFG,137,"Category B,Category C",0,Health,Region B,Afghanistan
+NN,AFG,13511,"Category A,Category B,Category C",0,"Gender,Governance",Region B,Afghanistan
+NN,AFG,13393,Category B,N/A,Poverty,Region B,Afghanistan
+NN,AFG,9051,Category B,0,Health,Region B,Afghanistan
+NN,AFG,556,Category B,0,Integration,Region B,Afghanistan
+NN,AFG,1998,Category B,N/A,"Integration,Poverty",Region B,Afghanistan
+NN,AFG,13576,"Category B,Category C",N/A,Poverty,Region B,Afghanistan
+NN,AFG,6219,Category B,N/A,Poverty,Region B,Afghanistan
+NN,AFG,9881,Category B,N/A,N/A,Region B,Afghanistan
+NN,AFG,7880,Category B,N/A,Poverty,Region B,Afghanistan
+NN,AFG,168,"Category A,Category B,Category C",N/A,Health,Region B,Afghanistan
+NN,AFG,10172,Category B,N/A,Poverty,Region B,Afghanistan
+NN,AFG,2062,"Category A,Category B",0,N/A,Region B,Afghanistan

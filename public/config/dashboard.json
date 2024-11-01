@@ -18,10 +18,10 @@
       "excludeValues": ["N/A"]
     },
     {
-      "column": "region_new",
+      "column": "region",
       "defaultValue": "",
       "label": "Filter by B",
-      "excludeValues": ["N/A", "HQ"]
+      "excludeValues": ["N/A"]
     },
     {
       "column": "country_name",
@@ -37,7 +37,7 @@
             "graphType": "statCard",
             "dataFilters": [
               {
-                "column": "Department",
+                "column": "Category",
                 "includeValues": ["CO"]
               },
               {
@@ -61,24 +61,6 @@
           },
           {
             "graphType": "statCard",
-            "dataFilters": [
-              {
-                "column": "Department",
-                "excludeValues": [
-                  "CO",
-                  "RBA",
-                  "RBAP",
-                  "RBLAC",
-                  "RBEC",
-                  "RBAS",
-                  "N/A"
-                ]
-              },
-              {
-                "column": "topics",
-                "excludeValues": ["N/A"]
-              }
-            ],
             "columnWidth": 1,
             "graphDataConfiguration": [
               {

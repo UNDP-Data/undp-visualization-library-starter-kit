@@ -1,4 +1,5 @@
 import {
+  GriddedGraphsFromConfig,
   MultiGraphDashboardFromConfig,
   SingleGraphDashboardFromConfig,
 } from '@undp-data/undp-visualization-library';
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <MultiGraphDashboardFromConfig config='/config/dashboard.json' />
+      <GriddedGraphsFromConfig config='/config/griddedChart.json' />
       <SingleGraphDashboardFromConfig config='/config/lineChart.json' />
     </div>
   );
