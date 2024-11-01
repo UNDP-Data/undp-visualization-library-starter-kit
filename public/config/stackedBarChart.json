@@ -1,39 +1,9 @@
 {
-  "graphType": "horizontalGroupedBarChart",
+  "graphType": "verticalStackedBarChart",
   "debugMode": true,
   "dataSettings": {
-    "data": [
-      {
-        "Country": "Country A",
-        "Indicator1": 8,
-        "Indicator2": 20,
-        "Region": "Region A"
-      },
-      {
-        "Country": "Country B",
-        "Indicator1": 10,
-        "Indicator2": 16,
-        "Region": "Region B"
-      },
-      {
-        "Country": "Country C",
-        "Indicator1": 6,
-        "Indicator2": 10,
-        "Region": "Region C"
-      },
-      {
-        "Country": "Country D",
-        "Indicator1": 20,
-        "Indicator2": 8,
-        "Region": "Region A"
-      },
-      {
-        "Country": "Country E",
-        "Indicator1": 10,
-        "Indicator2": 12,
-        "Region": "Region B"
-      }
-    ]
+    "dataURL": "/data/sample.csv",
+    "fileType": "csv"
   },
   "graphDataConfiguration": [
     {
@@ -42,7 +12,7 @@
     },
     {
       "chartConfigId": "size",
-      "columnId": ["Indicator1", "Indicator2"]
+      "columnId": ["Indicator-01", "Indicator-02"]
     }
   ],
   "graphSettings": {
@@ -53,18 +23,18 @@
     "source": "Example Source",
     "sourceLink": "https://example.com",
     "truncateBy": 10,
-    "width": 600,
-    "height": 400,
+    "width": 800,
+    "height": 600,
     "minHeight": 400,
     "relativeHeight": 1.2,
     "padding": "16px",
-    "topMargin": 24,
+    "topMargin": 64,
     "bottomMargin": 20,
-    "leftMargin": 64,
+    "leftMargin": 24,
     "rightMargin": 40,
     "maxBarThickness": 64,
     "maxNumberOfBars": 10,
-    "minBarThickness": 24,
+    "minBarThickness": 32,
     "barPadding": 0.1,
     "suffix": "",
     "prefix": "",
@@ -86,9 +56,8 @@
     "showValues": false,
     "showTicks": false,
     "maxValue": 25,
-    "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
-    "tooltip": "Indicator1: {{data.data.Indicator1}}<br>Indicator2: {{data.data.Indicator2}}",
+    "tooltip": "Indicator-01: {{data.data.Indicator-01}}<br>Indicator-02: {{data.data.Indicator-02}}",
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,

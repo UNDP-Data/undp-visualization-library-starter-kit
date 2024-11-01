@@ -1,10 +1,14 @@
-import { SingleGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
+import {
+  MultiGraphDashboardFromConfig,
+  SingleGraphDashboardFromConfig,
+} from '@undp-data/undp-visualization-library';
 import '@undp-data/undp-visualization-library/dist/style.css';
 
 function App() {
   return (
     <div>
-      <SingleGraphDashboardFromConfig config='/config/verticalGroupedBarChart.json' />
+      <MultiGraphDashboardFromConfig config='/config/dashboard.json' />
+      <SingleGraphDashboardFromConfig config='/config/lineChart.json' />
     </div>
   );
 }

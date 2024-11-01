@@ -1,0 +1,66 @@
+{
+  "graphType": "circlePacking",
+  "dataSettings": {
+    "dataURL": "/data/sample.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "size",
+      "columnId": "Indicator-02"
+    },
+    {
+      "chartConfigId": "label",
+      "columnId": "Country"
+    },
+    {
+      "chartConfigId": "color",
+      "columnId": "Country"
+    }
+  ],
+  "graphSettings": {
+    "colors": ["#006eb5", "#5DD4F0", "#02A38A", "#E78625", "#E0529E"],
+    "graphTitle": "Circle Packing Title",
+    "graphDescription": "This circle packing represents the hierarchical data structure.",
+    "footNote": "Footnote describing data source or additional details.",
+    "sourceLink": "https://example.com/data-source",
+    "width": 800,
+    "height": 600,
+    "suffix": "",
+    "prefix": "",
+    "source": "Data Source Name",
+    "leftMargin": 50,
+    "rightMargin": 50,
+    "colorDomain": [
+      "Country A",
+      "Country B",
+      "Country C",
+      "Country D",
+      "Country E"
+    ],
+    "colorLegendTitle": "",
+    "backgroundColor": "#ffffff",
+    "padding": "1rem",
+    "topMargin": 50,
+    "bottomMargin": 50,
+    "relativeHeight": 0.8,
+    "showLabels": true,
+    "tooltip": "{{data.label}}: {{data.value}}",
+    "showColorScale": true,
+    "showValues": true,
+    "graphID": "treeMap01",
+    "highlightedDataPoints": [
+      "Country A",
+      "Country B",
+      "Country C",
+      "Country D",
+      "Country E"
+    ],
+    "graphDownload": true,
+    "dataDownload": true,
+    "rtl": false,
+    "language": "en",
+    "mode": "light",
+    "showNAColor": false
+  }
+}

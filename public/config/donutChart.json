@@ -1,0 +1,50 @@
+{
+  "graphType": "donutChart",
+  "dataSettings": {
+    "dataURL": "/data/sample.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "size",
+      "columnId": "Indicator-02"
+    },
+    {
+      "chartConfigId": "label",
+      "columnId": "Country"
+    }
+  ],
+  "graphSettings": {
+    "mainText": "XX",
+    "subNote": "Subnote",
+    "colors": ["#006eb5", "#5DD4F0", "#02A38A", "#E78625", "#E0529E"],
+    "graphTitle": "Graph Title",
+    "suffix": "",
+    "prefix": "",
+    "source": "Source",
+    "graphDescription": "Graph Description",
+    "sourceLink": "https://example.com",
+    "footNote": "Footnote",
+    "radius": 200,
+    "strokeWidth": 40,
+    "graphLegend": true,
+    "backgroundColor": "#ffffff",
+    "padding": "1rem",
+    "tooltip": "{{data.value}}",
+    "graphID": "GraphID",
+    "graphDownload": true,
+    "dataDownload": true,
+    "colorDomain": [
+      "Country A",
+      "Country B",
+      "Country C",
+      "Country D",
+      "Country E"
+    ],
+    "sortData": "desc",
+    "rtl": false,
+    "language": "en",
+    "mode": "light",
+    "fillContainer": false
+  }
+}

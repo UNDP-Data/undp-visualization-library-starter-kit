@@ -1,0 +1,185 @@
+{
+  "dataSettings": {
+    "dataURL": "/data/dashbaord.csv",
+    "fileType": "csv",
+    "columnsToArray": [
+      {
+        "column": "staff_category"
+      },
+      {
+        "column": "topics"
+      }
+    ]
+  },
+  "filters": [
+    {
+      "column": "topics",
+      "label": "Filter by A",
+      "excludeValues": ["N/A"]
+    },
+    {
+      "column": "region_new",
+      "defaultValue": "",
+      "label": "Filter by B",
+      "excludeValues": ["N/A", "HQ"]
+    },
+    {
+      "column": "country_name",
+      "defaultValue": "",
+      "label": "Filter by C"
+    }
+  ],
+  "dashboardLayout": {
+    "rows": [
+      {
+        "columns": [
+          {
+            "graphType": "statCard",
+            "dataFilters": [
+              {
+                "column": "Department",
+                "includeValues": ["CO"]
+              },
+              {
+                "column": "topics",
+                "excludeValues": ["N/A"]
+              }
+            ],
+            "columnWidth": 1,
+            "graphDataConfiguration": [
+              {
+                "columnId": "ID",
+                "chartConfigId": "value"
+              }
+            ],
+            "settings": {
+              "aggregationMethod": "count",
+              "graphTitle": "Number of X",
+              "backgroundColor": true,
+              "padding": "1.25rem 1.25rem 0.25rem 1.25rem"
+            }
+          },
+          {
+            "graphType": "statCard",
+            "dataFilters": [
+              {
+                "column": "Department",
+                "excludeValues": [
+                  "CO",
+                  "RBA",
+                  "RBAP",
+                  "RBLAC",
+                  "RBEC",
+                  "RBAS",
+                  "N/A"
+                ]
+              },
+              {
+                "column": "topics",
+                "excludeValues": ["N/A"]
+              }
+            ],
+            "columnWidth": 1,
+            "graphDataConfiguration": [
+              {
+                "columnId": "ID",
+                "chartConfigId": "value"
+              }
+            ],
+            "settings": {
+              "aggregationMethod": "count",
+              "graphTitle": "Number of Y",
+              "backgroundColor": true,
+              "padding": "1.25rem 1.25rem 0.25rem 1.25rem"
+            }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "graphType": "verticalBarChart",
+            "dataFilters": [
+              {
+                "column": "topics",
+                "excludeValues": ["N/A"]
+              },
+              {
+                "column": "staff_category",
+                "excludeValues": ["N/A"]
+              }
+            ],
+            "columnWidth": 1,
+            "dataTransform": {
+              "keyColumn": "staff_category"
+            },
+            "graphDataConfiguration": [
+              {
+                "columnId": "staff_category",
+                "chartConfigId": "label"
+              },
+              {
+                "columnId": "count",
+                "chartConfigId": "size"
+              }
+            ],
+            "settings": {
+              "backgroundColor": "var(--gray-200)",
+              "leftMargin": 64,
+              "rightMargin": 64,
+              "maxBarThickness": 200,
+              "topMargin": 32,
+              "tooltip": "{{data.data.staff_category}} <strong>{{data.data.count}}</strong>",
+              "padding": "1.25rem",
+              "graphTitle": "Graph Title"
+            }
+          },
+          {
+            "graphType": "choroplethMap",
+            "columnWidth": 2,
+            "dataFilters": [
+              {
+                "column": "country_name",
+                "excludeValues": ["N/A"]
+              },
+              {
+                "column": "iso3",
+                "excludeValues": ["N/A"]
+              },
+              {
+                "column": "topics",
+                "excludeValues": ["N/A"]
+              }
+            ],
+            "dataTransform": {
+              "keyColumn": "country_name"
+            },
+            "graphDataConfiguration": [
+              {
+                "columnId": "count",
+                "chartConfigId": "x"
+              },
+              {
+                "columnId": "country_name",
+                "chartConfigId": "countryCode"
+              }
+            ],
+            "settings": {
+              "backgroundColor": true,
+              "tooltip": "{{data.data.country_name}} <strong>{{data.data.count}}</strong>",
+              "padding": "1.25rem",
+              "height": 600,
+              "mapProperty": "NAME",
+              "domain": [25, 50, 75, 100],
+              "showColorScale": true,
+              "scale": 240,
+              "centerPoint": [20, 20],
+              "graphTitle": "Graph Title",
+              "colorLegendTitle": "No. of CoP members"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

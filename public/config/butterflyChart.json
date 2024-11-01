@@ -1,0 +1,61 @@
+{
+  "graphType": "butterflyChart",
+  "debugMode": true,
+  "dataSettings": {
+    "dataURL": "/data/sample.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "label",
+      "columnId": "Country"
+    },
+    {
+      "chartConfigId": "leftBar",
+      "columnId": "Indicator-01"
+    },
+    {
+      "chartConfigId": "rightBar",
+      "columnId": "Indicator-02"
+    }
+  ],
+  "graphSettings": {
+    "graphTitle": "Butterfly Chart Title",
+    "graphDescription": "This butterfly chart compares two sets of data across a central axis.",
+    "leftBarTitle": "Left Bar Title",
+    "rightBarTitle": "Right Bar Title",
+    "footNote": "Footnote describing data source or additional details.",
+    "sourceLink": "https://example.com/data-source",
+    "width": 800,
+    "height": 600,
+    "minHeight": 600,
+    "source": "Data Source Name",
+    "backgroundColor": "#ffffff",
+    "padding": "1rem",
+    "leftMargin": 50,
+    "rightMargin": 50,
+    "topMargin": 50,
+    "bottomMargin": 50,
+    "colors": ["#006eb5", "#5DD4F0"],
+    "colorLegendTitle": "",
+    "relativeHeight": 0.8,
+    "tooltip": "{{data.label}}: {{data.value}}",
+    "graphID": "butterflyChart01",
+    "graphDownload": true,
+    "dataDownload": true,
+    "barPadding": 0.1,
+    "truncateBy": 10,
+    "suffix": "%",
+    "prefix": "$",
+    "showTicks": true,
+    "showValues": true,
+    "centerGap": 80,
+    "maxValue": 10,
+    "minValue": 0,
+    "showColorScale": true,
+    "refValues": [{ "value": 50, "text": "Midpoint", "color": "#FF0000" }],
+    "rtl": false,
+    "language": "en",
+    "mode": "light"
+  }
+}

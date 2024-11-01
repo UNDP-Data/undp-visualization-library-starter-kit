@@ -1,39 +1,9 @@
 {
-  "graphType": "horizontalBarChart",
+  "graphType": "animatedVerticalBarChart",
   "debugMode": true,
   "dataSettings": {
-    "data": [
-      {
-        "Country": "Country A",
-        "Indicator1": 8,
-        "Indicator2": 20,
-        "Region": "Region A"
-      },
-      {
-        "Country": "Country B",
-        "Indicator1": 10,
-        "Indicator2": 16,
-        "Region": "Region B"
-      },
-      {
-        "Country": "Country C",
-        "Indicator1": 6,
-        "Indicator2": 10,
-        "Region": "Region C"
-      },
-      {
-        "Country": "Country D",
-        "Indicator1": 20,
-        "Indicator2": 8,
-        "Region": "Region A"
-      },
-      {
-        "Country": "Country E",
-        "Indicator1": 10,
-        "Indicator2": 12,
-        "Region": "Region B"
-      }
-    ]
+    "dataURL": "/data/sample-with-years.csv",
+    "fileType": "csv"
   },
   "graphDataConfiguration": [
     {
@@ -42,7 +12,11 @@
     },
     {
       "chartConfigId": "size",
-      "columnId": "Indicator1"
+      "columnId": "Indicator-01"
+    },
+    {
+      "chartConfigId": "date",
+      "columnId": "Year"
     },
     {
       "chartConfigId": "color",
@@ -50,20 +24,20 @@
     }
   ],
   "graphSettings": {
-    "graphID": "simpleBarChart1",
-    "graphTitle": "Simple Bar Chart Example",
+    "graphID": "GraphID",
+    "graphTitle": "Animated Bar Chart Example",
     "graphDescription": "This is a simple bar chart description.",
     "footNote": "This is a footnote.",
     "source": "Example Source",
     "sourceLink": "https://example.com",
     "truncateBy": 10,
-    "width": 600,
-    "height": 400,
+    "width": 800,
+    "height": 600,
     "minHeight": 400,
     "relativeHeight": 1.2,
     "padding": "16px",
     "topMargin": 16,
-    "bottomMargin": 0,
+    "bottomMargin": 24,
     "leftMargin": 64,
     "rightMargin": 40,
     "maxBarThickness": 64,
@@ -85,15 +59,14 @@
       "Country D",
       "Country E"
     ],
-    "sortData": "desc",
     "showNAColor": false,
     "showLabels": true,
     "showValues": true,
     "showTicks": false,
-    "maxValue": 20,
+    "maxValue": 40,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
-    "tooltip": "Indicator1: {{data.data.Indicator1}}",
+    "tooltip": "Indicator-01: {{data.data.Indicator-01}}",
     "highlightedDataPoints": [
       "Country A",
       "Country B",
@@ -104,6 +77,10 @@
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,
-    "language": "en"
+    "language": "en",
+    "autoSort": false,
+    "autoPlay": false,
+    "dateFormat": "yyyy",
+    "showOnlyActiveDate": false
   }
 }

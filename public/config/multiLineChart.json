@@ -1,0 +1,93 @@
+{
+  "graphType": "multiLineChart",
+  "dataSettings": {
+    "dataURL": "/data/HDI-line-chart.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "y",
+      "columnId": ["AFG", "ARM", "ARG", "KHM", "COG"]
+    },
+    {
+      "chartConfigId": "date",
+      "columnId": "Year"
+    }
+  ],
+  "graphSettings": {
+    "graphID": "Graph-ID",
+    "graphTitle": "Graph Title",
+    "graphDescription": "Graph description",
+    "footNote": "This is a footnote.",
+    "source": "Example Source",
+    "sourceLink": "https://example.com",
+    "width": 800,
+    "height": 600,
+    "minHeight": 400,
+    "relativeHeight": 1.2,
+    "padding": "16px",
+    "topMargin": 64,
+    "bottomMargin": 24,
+    "noOfXTicks": 5,
+    "leftMargin": 24,
+    "rightMargin": 40,
+    "suffix": "",
+    "prefix": "",
+    "mode": "light",
+    "backgroundColor": "#ffffff",
+    "colors": ["#006eb5", "#5DD4F0", "#02A38A", "#E78625", "#E0529E"],
+    "labels": ["AFG", "ARM", "ARG", "KHM", "COG"],
+    "showColorLegendAtTop": true,
+    "colorLegendTitle": "Countries",
+    "highlightedLines": ["AFG", "ARM", "ARG", "KHM", "COG"],
+    "showValues": false,
+    "maxValue": 1,
+    "minValue": 0,
+    "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
+    "highlightAreaSettings": [2000, 2010],
+    "customHighlightAreaSettings": [
+      {
+        "coordinates": [
+          "2015",
+          0.8,
+          "2020",
+          0.8,
+          "2020",
+          0.4,
+          "2015",
+          0.4,
+          "2015",
+          0.8
+        ],
+        "color": "#EDEFF0",
+        "strokeWidth": 2,
+        "dashedStroke": true
+      }
+    ],
+    "highlightAreaColor": "#EDEFF0",
+    "animateLine": false,
+    "strokeWidth": 2,
+    "showDots": true,
+    "annotations": [
+      {
+        "text": "This is annotation",
+        "maxWidth": 100,
+        "xCoordinate": "2023",
+        "yCoordinate": 12,
+        "xOffset": 0,
+        "yOffset": 0,
+        "align": "left",
+        "color": "#000",
+        "fontWeight": "regular",
+        "showConnector": false,
+        "connectorRadius": 0
+      }
+    ],
+    "tooltip": "AFG: {{data.y[0]}}<br>[TBA]",
+    "graphDownload": true,
+    "dataDownload": true,
+    "rtl": false,
+    "language": "en",
+    "dateFormat": "yyyy"
+  }
+}

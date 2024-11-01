@@ -1,0 +1,90 @@
+{
+  "graphType": "lineChart",
+  "dataSettings": {
+    "dataURL": "/data/sample-with-years-simple.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "y",
+      "columnId": "Indicator-01"
+    },
+    {
+      "chartConfigId": "date",
+      "columnId": "Year"
+    }
+  ],
+  "graphSettings": {
+    "graphID": "Graph-ID",
+    "graphTitle": "Graph Title",
+    "graphDescription": "Graph description",
+    "footNote": "This is a footnote.",
+    "source": "Example Source",
+    "sourceLink": "https://example.com",
+    "width": 800,
+    "height": 600,
+    "minHeight": 400,
+    "relativeHeight": 1.2,
+    "padding": "16px",
+    "topMargin": 64,
+    "bottomMargin": 24,
+    "noOfXTicks": 5,
+    "leftMargin": 24,
+    "rightMargin": 40,
+    "suffix": "",
+    "prefix": "",
+    "mode": "light",
+    "backgroundColor": "#ffffff",
+    "color": "#006eb5",
+    "showLabels": true,
+    "showValues": true,
+    "maxValue": 30,
+    "minValue": 0,
+    "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
+    "highlightAreaSettings": [2020, 2021],
+    "customHighlightAreaSettings": [
+      {
+        "coordinates": [
+          "2022",
+          14,
+          "2024",
+          14,
+          "2024",
+          8,
+          "2022",
+          8,
+          "2022",
+          14
+        ],
+        "color": "#EDEFF0",
+        "strokeWidth": 2,
+        "dashedStroke": true
+      }
+    ],
+    "highlightAreaColor": "#EDEFF0",
+    "animateLine": false,
+    "strokeWidth": 2,
+    "showDots": true,
+    "annotations": [
+      {
+        "text": "This is annotation",
+        "maxWidth": 100,
+        "xCoordinate": "2022",
+        "yCoordinate": 32,
+        "xOffset": 0,
+        "yOffset": 0,
+        "align": "left",
+        "color": "#000",
+        "fontWeight": "regular",
+        "showConnector": false,
+        "connectorRadius": 0
+      }
+    ],
+    "tooltip": "Indicator-01: {{data.y}}",
+    "graphDownload": true,
+    "dataDownload": true,
+    "rtl": false,
+    "language": "en",
+    "dateFormat": "yyyy"
+  }
+}

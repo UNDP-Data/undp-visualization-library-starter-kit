@@ -1,0 +1,55 @@
+{
+  "graphType": "choroplethMap",
+  "dataSettings": {
+    "dataURL": "/data/HDI.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "x",
+      "columnId": "HDI"
+    },
+    {
+      "chartConfigId": "countryCode",
+      "columnId": "Country Code"
+    }
+  ],
+  "graphSettings": {
+    "graphTitle": "Graph Title",
+    "graphDescription": "Graph Description",
+    "footNote": "Footnote",
+    "sourceLink": "https://example.com/population-data",
+    "width": 1200,
+    "height": 800,
+    "minHeight": 800,
+    "source": "Source",
+    "domain": [0.55, 0.7, 0.8],
+    "colorLegendTitle": "Legend Title",
+    "categorical": false,
+    "scale": 180,
+    "centerPoint": [0, 20],
+    "backgroundColor": "#ffffff",
+    "mapBorderWidth": 1,
+    "mapNoDataColor": "#EDEFF0",
+    "mapBorderColor": "#fafafa",
+    "relativeHeight": 0.7,
+    "padding": "1rem",
+    "isWorldMap": true,
+    "tooltip": "{{data.data['Official Country Name']}}: {{data.data.HDI}}",
+    "showColorScale": true,
+    "zoomScaleExtend": [1, 8],
+    "zoomTranslateExtend": [
+      [-100, -50],
+      [100, 50]
+    ],
+    "graphID": "GraphID",
+    "highlightedCountryCodes": [],
+    "graphDownload": true,
+    "dataDownload": true,
+    "mapProperty": "ISO3",
+    "showAntarctica": false,
+    "rtl": false,
+    "language": "en",
+    "mode": "light"
+  }
+}
