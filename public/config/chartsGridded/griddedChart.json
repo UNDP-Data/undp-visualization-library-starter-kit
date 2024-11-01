@@ -1,0 +1,33 @@
+{
+  "dataSettings": {
+    "dataURL": "/data/gridded.csv",
+    "fileType": "csv"
+  },
+  "graphSettings": {
+    "graphTitle": "Gridded Chart (Small Multiples)",
+    "graphDescription": "Human Development Index, 2020",
+    "footNote": "",
+    "source": "UNDP",
+    "sourceLink": "https://hdr.undp.org/",
+    "padding": "1rem",
+    "backgroundColor": "#FAFAFA"
+  },
+  "graphType": "lineChart",
+  "showCommonColorScale": false,
+  "mode": "light",
+  "noOfColumns": 3,
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "y",
+      "columnId": "HDI"
+    },
+    {
+      "chartConfigId": "date",
+      "columnId": "Year"
+    }
+  ],
+  "columnGridBy": "Official Country Name",
+  "relativeHeightForGraph": 0.6,
+  "minGraphWidth": 320,
+  "minGraphheight": 320
+}

@@ -1,8 +1,8 @@
 {
-  "graphType": "verticalBarChart",
+  "graphType": "animatedVerticalBarChart",
   "debugMode": true,
   "dataSettings": {
-    "dataURL": "/data/sample.csv",
+    "dataURL": "/data/animated.csv",
     "fileType": "csv"
   },
   "graphDataConfiguration": [
@@ -15,17 +15,21 @@
       "columnId": "Indicator-01"
     },
     {
+      "chartConfigId": "date",
+      "columnId": "Year"
+    },
+    {
       "chartConfigId": "color",
       "columnId": "Region"
     }
   ],
   "graphSettings": {
-    "graphID": "simpleBarChart1",
-    "graphTitle": "Simple Bar Chart Example",
-    "graphDescription": "This is a simple bar chart description.",
-    "footNote": "This is a footnote.",
-    "source": "Example Source",
-    "sourceLink": "https://example.com",
+    "graphID": "GraphID",
+    "graphTitle": "Animated Bar Chart",
+    "graphDescription": "Sample Data",
+    "footNote": "",
+    "source": "TBA",
+    "sourceLink": "",
     "truncateBy": 10,
     "width": 800,
     "height": 600,
@@ -33,7 +37,7 @@
     "relativeHeight": 1.2,
     "padding": "16px",
     "topMargin": 16,
-    "bottomMargin": 0,
+    "bottomMargin": 24,
     "leftMargin": 64,
     "rightMargin": 40,
     "maxBarThickness": 64,
@@ -43,7 +47,7 @@
     "suffix": "",
     "prefix": "",
     "mode": "light",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FAFAFA",
     "colors": ["#006eb5", "#5DD4F0", "#02A38A"],
     "colorDomain": ["Region A", "Region B", "Region C"],
     "colorLegendTitle": "Regions",
@@ -55,12 +59,11 @@
       "Country D",
       "Country E"
     ],
-    "sortData": "desc",
     "showNAColor": false,
     "showLabels": true,
     "showValues": true,
     "showTicks": false,
-    "maxValue": 20,
+    "maxValue": 40,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
     "tooltip": "Indicator-01: {{data.data.Indicator-01}}",
@@ -74,6 +77,10 @@
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,
-    "language": "en"
+    "language": "en",
+    "autoSort": false,
+    "autoPlay": false,
+    "dateFormat": "yyyy",
+    "showOnlyActiveDate": false
   }
 }

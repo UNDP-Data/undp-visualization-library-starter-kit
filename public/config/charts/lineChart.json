@@ -1,13 +1,13 @@
 {
   "graphType": "lineChart",
   "dataSettings": {
-    "dataURL": "/data/sample-with-years-simple.csv",
+    "dataURL": "/data/line-chart.csv",
     "fileType": "csv"
   },
   "graphDataConfiguration": [
     {
       "chartConfigId": "y",
-      "columnId": "Indicator-01"
+      "columnId": "AFG"
     },
     {
       "chartConfigId": "date",
@@ -16,11 +16,11 @@
   ],
   "graphSettings": {
     "graphID": "Graph-ID",
-    "graphTitle": "Graph Title",
-    "graphDescription": "Graph description",
-    "footNote": "This is a footnote.",
-    "source": "Example Source",
-    "sourceLink": "https://example.com",
+    "graphTitle": "Simple Line Chart",
+    "graphDescription": "Human Development Index, 2020",
+    "footNote": "",
+    "source": "UNDP",
+    "sourceLink": "https://hdr.undp.org/",
     "width": 800,
     "height": 600,
     "minHeight": 400,
@@ -34,43 +34,39 @@
     "suffix": "",
     "prefix": "",
     "mode": "light",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FAFAFA",
     "color": "#006eb5",
     "showLabels": true,
-    "showValues": true,
-    "maxValue": 30,
+    "showValues": false,
+    "maxValue": 0.6,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
-    "highlightAreaSettings": [2020, 2021],
+    "highlightAreaSettings": [2012, 2022],
     "customHighlightAreaSettings": [
       {
         "coordinates": [
-          "2022",
-          14,
-          "2024",
-          14,
-          "2024",
-          8,
-          "2022",
-          8,
-          "2022",
-          14
+          "xValue",
+          "yValue",
+          "xValue",
+          "yValue",
+          "xValue",
+          "yValue"
         ],
         "color": "#EDEFF0",
-        "strokeWidth": 2,
+        "strokeWidth": 1,
         "dashedStroke": true
       }
     ],
     "highlightAreaColor": "#EDEFF0",
     "animateLine": false,
     "strokeWidth": 2,
-    "showDots": true,
+    "showDots": false,
     "annotations": [
       {
-        "text": "This is annotation",
+        "text": "",
         "maxWidth": 100,
-        "xCoordinate": "2022",
-        "yCoordinate": 32,
+        "xCoordinate": "2010",
+        "yCoordinate": 0.43,
         "xOffset": 0,
         "yOffset": 0,
         "align": "left",
@@ -80,7 +76,7 @@
         "connectorRadius": 0
       }
     ],
-    "tooltip": "Indicator-01: {{data.y}}",
+    "tooltip": "HDI: {{data.y}}",
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,

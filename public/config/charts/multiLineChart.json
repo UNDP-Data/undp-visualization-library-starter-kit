@@ -1,7 +1,7 @@
 {
   "graphType": "multiLineChart",
   "dataSettings": {
-    "dataURL": "/data/HDI-line-chart.csv",
+    "dataURL": "/data/line-chart.csv",
     "fileType": "csv"
   },
   "graphDataConfiguration": [
@@ -16,11 +16,11 @@
   ],
   "graphSettings": {
     "graphID": "Graph-ID",
-    "graphTitle": "Graph Title",
-    "graphDescription": "Graph description",
-    "footNote": "This is a footnote.",
-    "source": "Example Source",
-    "sourceLink": "https://example.com",
+    "graphTitle": "Multi-line Chart",
+    "graphDescription": "Human Development Index, 2020",
+    "footNote": "",
+    "source": "UNDP",
+    "sourceLink": "https://hdr.undp.org/",
     "width": 800,
     "height": 600,
     "minHeight": 400,
@@ -34,7 +34,7 @@
     "suffix": "",
     "prefix": "",
     "mode": "light",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FAFAFA",
     "colors": ["#006eb5", "#5DD4F0", "#02A38A", "#E78625", "#E0529E"],
     "labels": ["AFG", "ARM", "ARG", "KHM", "COG"],
     "showColorLegendAtTop": true,
@@ -48,16 +48,12 @@
     "customHighlightAreaSettings": [
       {
         "coordinates": [
-          "2015",
-          0.8,
-          "2020",
-          0.8,
-          "2020",
-          0.4,
-          "2015",
-          0.4,
-          "2015",
-          0.8
+          "xValue",
+          "yValue",
+          "xValue",
+          "yValue",
+          "xValue",
+          "yValue"
         ],
         "color": "#EDEFF0",
         "strokeWidth": 2,
@@ -67,7 +63,7 @@
     "highlightAreaColor": "#EDEFF0",
     "animateLine": false,
     "strokeWidth": 2,
-    "showDots": true,
+    "showDots": false,
     "annotations": [
       {
         "text": "This is annotation",
@@ -83,7 +79,7 @@
         "connectorRadius": 0
       }
     ],
-    "tooltip": "AFG: {{data.y[0]}}<br>[TBA]",
+    "tooltip": "Country A: {{data.y[0]}}<br>Country B: {{data.y[1]}}<br><...>",
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,

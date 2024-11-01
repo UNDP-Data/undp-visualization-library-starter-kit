@@ -1,7 +1,7 @@
 {
   "graphType": "choroplethMap",
   "dataSettings": {
-    "dataURL": "/data/HDI.csv",
+    "dataURL": "/data/map.csv",
     "fileType": "csv"
   },
   "graphDataConfiguration": [
@@ -15,20 +15,20 @@
     }
   ],
   "graphSettings": {
-    "graphTitle": "Graph Title",
-    "graphDescription": "Graph Description",
-    "footNote": "Footnote",
-    "sourceLink": "https://example.com/population-data",
-    "width": 1200,
-    "height": 800,
+    "graphTitle": "Choropleth Map",
+    "graphDescription": "Human Development Index, 2020",
+    "footNote": "",
+    "source": "UNDP",
+    "sourceLink": "https://hdr.undp.org/",
+    "width": 800,
+    "height": 600,
     "minHeight": 800,
-    "source": "Source",
     "domain": [0.55, 0.7, 0.8],
     "colorLegendTitle": "Legend Title",
     "categorical": false,
     "scale": 180,
     "centerPoint": [0, 20],
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FAFAFA",
     "mapBorderWidth": 1,
     "mapNoDataColor": "#EDEFF0",
     "mapBorderColor": "#fafafa",

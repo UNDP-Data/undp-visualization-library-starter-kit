@@ -1,7 +1,7 @@
 {
   "graphType": "circlePacking",
   "dataSettings": {
-    "dataURL": "/data/sample.csv",
+    "dataURL": "/data/donut.csv",
     "fileType": "csv"
   },
   "graphDataConfiguration": [
@@ -20,15 +20,15 @@
   ],
   "graphSettings": {
     "colors": ["#006eb5", "#5DD4F0", "#02A38A", "#E78625", "#E0529E"],
-    "graphTitle": "Circle Packing Title",
-    "graphDescription": "This circle packing represents the hierarchical data structure.",
-    "footNote": "Footnote describing data source or additional details.",
-    "sourceLink": "https://example.com/data-source",
+    "graphTitle": "Circle Packing",
+    "graphDescription": "Sample Data",
+    "footNote": "",
+    "sourceLink": "",
     "width": 800,
     "height": 600,
     "suffix": "",
     "prefix": "",
-    "source": "Data Source Name",
+    "source": "TBA",
     "leftMargin": 50,
     "rightMargin": 50,
     "colorDomain": [
@@ -39,7 +39,7 @@
       "Country E"
     ],
     "colorLegendTitle": "",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FAFAFA",
     "padding": "1rem",
     "topMargin": 50,
     "bottomMargin": 50,

@@ -1,8 +1,8 @@
 {
-  "graphType": "animatedVerticalBarChart",
+  "graphType": "verticalBarChart",
   "debugMode": true,
   "dataSettings": {
-    "dataURL": "/data/sample-with-years.csv",
+    "dataURL": "/data/basic.csv",
     "fileType": "csv"
   },
   "graphDataConfiguration": [
@@ -15,21 +15,17 @@
       "columnId": "Indicator-01"
     },
     {
-      "chartConfigId": "date",
-      "columnId": "Year"
-    },
-    {
       "chartConfigId": "color",
       "columnId": "Region"
     }
   ],
   "graphSettings": {
     "graphID": "GraphID",
-    "graphTitle": "Animated Bar Chart Example",
-    "graphDescription": "This is a simple bar chart description.",
-    "footNote": "This is a footnote.",
-    "source": "Example Source",
-    "sourceLink": "https://example.com",
+    "graphTitle": "Simple Bar Chart",
+    "graphDescription": "Sample Data",
+    "footNote": ".",
+    "source": "TBA",
+    "sourceLink": "",
     "truncateBy": 10,
     "width": 800,
     "height": 600,
@@ -37,8 +33,8 @@
     "relativeHeight": 1.2,
     "padding": "16px",
     "topMargin": 16,
-    "bottomMargin": 24,
-    "leftMargin": 64,
+    "bottomMargin": 16,
+    "leftMargin": 40,
     "rightMargin": 40,
     "maxBarThickness": 64,
     "maxNumberOfBars": 10,
@@ -47,40 +43,24 @@
     "suffix": "",
     "prefix": "",
     "mode": "light",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#FAFAFA",
     "colors": ["#006eb5", "#5DD4F0", "#02A38A"],
     "colorDomain": ["Region A", "Region B", "Region C"],
     "colorLegendTitle": "Regions",
     "showColorScale": true,
-    "labelOrder": [
-      "Country A",
-      "Country B",
-      "Country C",
-      "Country D",
-      "Country E"
-    ],
+    "sortData": "desc",
     "showNAColor": false,
     "showLabels": true,
     "showValues": true,
     "showTicks": false,
-    "maxValue": 40,
+    "maxValue": 50,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
     "tooltip": "Indicator-01: {{data.data.Indicator-01}}",
-    "highlightedDataPoints": [
-      "Country A",
-      "Country B",
-      "Country C",
-      "Country D",
-      "Country E"
-    ],
+    "highlightedDataPoints": [],
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,
-    "language": "en",
-    "autoSort": false,
-    "autoPlay": false,
-    "dateFormat": "yyyy",
-    "showOnlyActiveDate": false
+    "language": "en"
   }
 }
