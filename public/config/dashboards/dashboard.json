@@ -1,32 +1,19 @@
 {
   "dataSettings": {
-    "dataURL": "/data/dashbaord.csv",
-    "fileType": "csv",
-    "columnsToArray": [
-      {
-        "column": "staff_category"
-      },
-      {
-        "column": "topics"
-      }
-    ]
+    "dataURL": "/data/map.csv",
+    "fileType": "csv"
   },
   "filters": [
     {
-      "column": "topics",
-      "label": "Filter by A",
+      "column": "Continent",
+      "label": "Filter by continent",
       "excludeValues": ["N/A"]
     },
     {
-      "column": "region",
+      "column": "Income Group",
       "defaultValue": "",
-      "label": "Filter by B",
+      "label": "Filter by income group",
       "excludeValues": ["N/A"]
-    },
-    {
-      "column": "country_name",
-      "defaultValue": "",
-      "label": "Filter by C"
     }
   ],
   "dashboardLayout": {
@@ -37,24 +24,20 @@
             "graphType": "statCard",
             "dataFilters": [
               {
-                "column": "Category",
-                "includeValues": ["CO"]
-              },
-              {
-                "column": "topics",
-                "excludeValues": ["N/A"]
+                "column": "HDI",
+                "excludeValues": [null]
               }
             ],
             "columnWidth": 1,
             "graphDataConfiguration": [
               {
-                "columnId": "ID",
+                "columnId": "Country Code",
                 "chartConfigId": "value"
               }
             ],
             "settings": {
               "aggregationMethod": "count",
-              "graphTitle": "Number of X",
+              "graphTitle": "Stat Card with Data Filter and Count",
               "backgroundColor": true,
               "padding": "1.25rem 1.25rem 0.25rem 1.25rem"
             }
@@ -62,46 +45,44 @@
           {
             "graphType": "statCard",
             "columnWidth": 1,
+            "dataTransform": { "keyColumn": "Continent" },
             "graphDataConfiguration": [
               {
-                "columnId": "ID",
+                "columnId": "Continent",
                 "chartConfigId": "value"
               }
             ],
             "settings": {
               "aggregationMethod": "count",
-              "graphTitle": "Number of Y",
+              "graphTitle": "Stat Card with Data Transformation and Count",
               "backgroundColor": true,
-              "padding": "1.25rem 1.25rem 0.25rem 1.25rem"
+              "padding": "1.25rem"
             }
           }
         ]
       },
       {
+        "height": 600,
         "columns": [
           {
             "graphType": "verticalBarChart",
-            "dataFilters": [
-              {
-                "column": "topics",
-                "excludeValues": ["N/A"]
-              },
-              {
-                "column": "staff_category",
-                "excludeValues": ["N/A"]
-              }
-            ],
             "columnWidth": 1,
             "dataTransform": {
-              "keyColumn": "staff_category"
+              "keyColumn": "Continent",
+              "aggregationColumnsSetting": [
+                {
+                  "column": "HDI",
+                  "aggregationMethod": "average"
+                }
+              ]
             },
             "graphDataConfiguration": [
               {
-                "columnId": "staff_category",
+                "columnId": "Continent",
                 "chartConfigId": "label"
               },
               {
-                "columnId": "count",
+                "columnId": "HDI",
                 "chartConfigId": "size"
               }
             ],
@@ -113,36 +94,19 @@
               "topMargin": 32,
               "tooltip": "{{data.data.staff_category}} <strong>{{data.data.count}}</strong>",
               "padding": "1.25rem",
-              "graphTitle": "Graph Title"
+              "graphTitle": "Vertical Bar Chart with Data Transformation"
             }
           },
           {
             "graphType": "choroplethMap",
             "columnWidth": 2,
-            "dataFilters": [
-              {
-                "column": "country_name",
-                "excludeValues": ["N/A"]
-              },
-              {
-                "column": "iso3",
-                "excludeValues": ["N/A"]
-              },
-              {
-                "column": "topics",
-                "excludeValues": ["N/A"]
-              }
-            ],
-            "dataTransform": {
-              "keyColumn": "country_name"
-            },
             "graphDataConfiguration": [
               {
-                "columnId": "count",
+                "columnId": "HDI",
                 "chartConfigId": "x"
               },
               {
-                "columnId": "country_name",
+                "columnId": "Country Code",
                 "chartConfigId": "countryCode"
               }
             ],
@@ -150,14 +114,13 @@
               "backgroundColor": true,
               "tooltip": "{{data.data.country_name}} <strong>{{data.data.count}}</strong>",
               "padding": "1.25rem",
-              "height": 600,
-              "mapProperty": "NAME",
-              "domain": [25, 50, 75, 100],
+              "mapProperty": "ISO3",
+              "domain": [0.4, 0.55, 0.8, 1],
               "showColorScale": true,
               "scale": 240,
               "centerPoint": [20, 20],
-              "graphTitle": "Graph Title",
-              "colorLegendTitle": "No. of CoP members"
+              "graphTitle": "Simple Choropleth Map",
+              "colorLegendTitle": "Legend Title"
             }
           }
         ]

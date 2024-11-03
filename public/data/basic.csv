@@ -1,20 +1,20 @@
 Country,Indicator-01,Indicator-02,Indicator-03,Region,Category
-Country A,27,3,40,Region A,Category 1
-Country B,1,10,19,Region B,Category 2
-Country C,43,19,25,Region C,Category 1
-Country D,30,39,25,Region A,Category 2
-Country E,21,14,37,Region B,Category 1
-Country F,12,17,4,Region A,Category 2,
-Country G,47,29,23,Region B,Category 2,
-Country H,20,0,25,Region C,Category 2,
-Country I,4,41,11,Region A,Category 2,
-Country J,6,46,20,Region B,Category 2,
-Country K,4,43,8,Region B,Category 2,
-Country L,49,6,49,Region B,Category 1,
-Country M,48,18,7,Region C,Category 3,
-Country N,44,32,33,Region C,Category 2,
-Country O,29,3,1,Region A,Category 3,I
-Country P,18,11,34,Region B,Category 3,I
-Country Q,30,18,7,Region C,Category 3,I
-Country R,29,41,5,Region C,Category 1,I
-Country S,16,14,47,Region B,Category 1,I
+A,27,3,40,Region A,Category 1
+B,1,10,19,Region B,Category 2
+C,43,19,25,Region C,Category 1
+D,30,39,25,Region A,Category 2
+E,21,14,37,Region B,Category 1
+F,12,17,4,Region A,Category 2,
+G,47,29,23,Region B,Category 2,
+H,20,0,25,Region C,Category 2,
+I,4,41,11,Region A,Category 2,
+J,6,46,20,Region B,Category 2,
+K,4,43,8,Region B,Category 2,
+L,49,6,49,Region B,Category 1,
+M,48,18,7,Region C,Category 3,
+N,44,32,33,Region C,Category 2,
+O,29,3,1,Region A,Category 3,I
+P,18,11,34,Region B,Category 3,
+Q,30,18,7,Region C,Category 3,
+R,29,41,5,Region C,Category 1,
+S,16,14,47,Region B,Category 1,

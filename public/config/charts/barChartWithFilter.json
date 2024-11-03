@@ -1,0 +1,84 @@
+{
+  "graphType": "verticalBarChart",
+  "debugMode": true,
+  "dataSettings": {
+    "dataURL": "/data/basic.csv",
+    "fileType": "csv"
+  },
+  "filters": [
+    {
+      "column": "Region",
+      "singleSelect": true,
+      "clearable": true,
+      "defaultValue": "",
+      "label": "Filter by region",
+      "excludeValues": []
+    },
+    {
+      "column": "Category",
+      "singleSelect": true,
+      "clearable": true,
+      "defaultValue": "",
+      "label": "Filter by category",
+      "excludeValues": []
+    }
+  ],
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "label",
+      "columnId": "Country"
+    },
+    {
+      "chartConfigId": "size",
+      "columnId": "Indicator-01"
+    },
+    {
+      "chartConfigId": "color",
+      "columnId": "Region"
+    }
+  ],
+  "graphSettings": {
+    "graphID": "GraphID",
+    "graphTitle": "Simple Bar Chart with Filters",
+    "graphDescription": "Sample Data",
+    "footNote": ".",
+    "source": "TBA",
+    "sourceLink": "",
+    "truncateBy": 10,
+    "width": 800,
+    "height": 600,
+    "minHeight": 400,
+    "relativeHeight": 1.2,
+    "padding": "16px",
+    "topMargin": 16,
+    "bottomMargin": 16,
+    "leftMargin": 40,
+    "rightMargin": 40,
+    "maxBarThickness": 64,
+    "maxNumberOfBars": 20,
+    "minBarThickness": 24,
+    "barPadding": 0.1,
+    "suffix": "",
+    "prefix": "",
+    "mode": "light",
+    "backgroundColor": "#FAFAFA",
+    "colors": ["#006eb5", "#5DD4F0", "#02A38A"],
+    "colorDomain": ["Region A", "Region B", "Region C"],
+    "colorLegendTitle": "Regions",
+    "showColorScale": true,
+    "sortData": "desc",
+    "showNAColor": false,
+    "showLabels": true,
+    "showValues": true,
+    "showTicks": false,
+    "maxValue": 50,
+    "minValue": 0,
+    "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
+    "tooltip": "Indicator-01: {{data.size}}",
+    "highlightedDataPoints": [],
+    "graphDownload": true,
+    "dataDownload": true,
+    "rtl": false,
+    "language": "en"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "graphType": "animatedChoroplethMap",
+  "dataSettings": {
+    "dataURL": "/data/animated.csv",
+    "fileType": "csv"
+  },
+  "graphDataConfiguration": [
+    {
+      "chartConfigId": "x",
+      "columnId": "Indicator-01"
+    },
+    {
+      "chartConfigId": "countryCode",
+      "columnId": "countryCode"
+    },
+    {
+      "chartConfigId": "date",
+      "columnId": "Year"
+    }
+  ],
+  "graphSettings": {
+    "graphTitle": "Choropleth Map",
+    "graphDescription": "Sample data",
+    "footNote": "",
+    "source": "TBA",
+    "width": 800,
+    "height": 600,
+    "minHeight": 800,
+    "domain": [10, 20, 30, 40],
+    "colorLegendTitle": "Legend Title",
+    "categorical": false,
+    "scale": 180,
+    "centerPoint": [0, 20],
+    "backgroundColor": "#FAFAFA",
+    "mapBorderWidth": 1,
+    "mapNoDataColor": "#EDEFF0",
+    "mapBorderColor": "#fafafa",
+    "relativeHeight": 0.7,
+    "padding": "1rem",
+    "isWorldMap": true,
+    "tooltip": "{{data.data['Country']}}: {{data.x}}",
+    "showColorScale": true,
+    "zoomScaleExtend": [1, 8],
+    "zoomTranslateExtend": [
+      [-100, -50],
+      [100, 50]
+    ],
+    "graphID": "GraphID",
+    "highlightedCountryCodes": [],
+    "graphDownload": true,
+    "dataDownload": true,
+    "mapProperty": "ISO3",
+    "showAntarctica": false,
+    "rtl": false,
+    "language": "en",
+    "mode": "light"
+  }
+}
