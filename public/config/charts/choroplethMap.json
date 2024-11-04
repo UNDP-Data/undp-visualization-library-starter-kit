@@ -18,8 +18,12 @@
     "graphTitle": "Choropleth Map",
     "graphDescription": "Human Development Index, 2020",
     "footNote": "",
-    "source": "UNDP",
-    "sourceLink": "https://hdr.undp.org/",
+    "sources":[
+      {
+        "source": "UNDP",
+        "link": "https://hdr.undp.org/"
+      }
+    ],
     "width": 800,
     "height": 600,
     "minHeight": 800,

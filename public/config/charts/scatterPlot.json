@@ -31,10 +31,14 @@
     "graphDescription": "Sample Data",
     "padding": "1rem",
     "footNote": "",
-    "sourceLink": "",
+    "sources":[
+      {
+        "source": "TBA",
+        "link": "https://www.undp.org/"
+      }
+    ],
     "width": 800,
     "height": 600,
-    "source": "TBA",
     "showLabels": false,
     "colors": ["#006eb5", "#5DD4F0", "#02A38A"],
     "colorDomain": ["Region A", "Region B", "Region C"],

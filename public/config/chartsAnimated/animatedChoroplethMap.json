@@ -22,7 +22,12 @@
     "graphTitle": "Choropleth Map",
     "graphDescription": "Sample data",
     "footNote": "",
-    "source": "TBA",
+    "sources":[
+      {
+        "source": "TBA",
+        "link": "https://www.undp.org/"
+      }
+    ],
     "width": 800,
     "height": 600,
     "minHeight": 800,

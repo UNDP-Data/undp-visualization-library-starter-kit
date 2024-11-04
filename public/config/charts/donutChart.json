@@ -21,10 +21,14 @@
     "graphTitle": "Graph Title",
     "suffix": "",
     "prefix": "",
-    "source": "TBA",
+    "sources":[
+      {
+        "source": "TBA",
+        "link": "https://www.undp.org/"
+      }
+    ],
     "graphDescription": "Sample Data",
     "footNote": "",
-    "sourceLink": "",
     "radius": 200,
     "strokeWidth": 40,
     "graphLegend": true,

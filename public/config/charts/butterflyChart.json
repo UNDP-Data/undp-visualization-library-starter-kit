@@ -25,11 +25,15 @@
     "leftBarTitle": "Left Bar Title",
     "rightBarTitle": "Right Bar Title",
     "footNote": "Footnote describing data source or additional details.",
-    "sourceLink": "https://example.com/data-source",
+    "sources":[
+      {
+        "source": "TBA",
+        "link": "https://www.undp.org/"
+      }
+    ],
     "width": 800,
     "height": 600,
     "minHeight": 600,
-    "source": "Data Source Name",
     "backgroundColor": "#FAFAFA",
     "padding": "1rem",
     "leftMargin": 50,

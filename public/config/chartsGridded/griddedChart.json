@@ -7,8 +7,12 @@
     "graphTitle": "Gridded Chart (Small Multiples)",
     "graphDescription": "Human Development Index, 2020",
     "footNote": "",
-    "source": "UNDP",
-    "sourceLink": "https://hdr.undp.org/",
+    "sources":[
+      {
+        "source": "UNDP",
+        "link": "https://hdr.undp.org/"
+      }
+    ],
     "padding": "1rem",
     "backgroundColor": "#FAFAFA"
   },

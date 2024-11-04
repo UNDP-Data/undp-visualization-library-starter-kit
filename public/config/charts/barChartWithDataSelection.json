@@ -37,8 +37,12 @@
     "graphTitle": "Simple Bar Chart with Data Selection",
     "graphDescription": "Sample Data",
     "footNote": ".",
-    "source": "TBA",
-    "sourceLink": "",
+    "sources":[
+      {
+        "source": "TBA",
+        "link": "https://www.undp.org/"
+      }
+    ],
     "truncateBy": 10,
     "width": 800,
     "height": 600,
