@@ -87,7 +87,7 @@
               }
             ],
             "settings": {
-              "backgroundColor": "var(--gray-200)",
+              "backgroundColor": true,
               "leftMargin": 64,
               "rightMargin": 64,
               "maxBarThickness": 200,

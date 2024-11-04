@@ -20,7 +20,7 @@
     "graphTitle": "Horizontal Grouped Bar Chart ",
     "graphDescription": "Sample Data",
     "footNote": ".",
-    "sources":[
+    "sources": [
       {
         "source": "TBA",
         "link": "https://www.undp.org/"
@@ -48,13 +48,7 @@
     "colorDomain": ["Indicator 1", "Indicator 2"],
     "colorLegendTitle": "Indicators",
     "showColorScale": true,
-    "labelOrder": [
-      "Country A",
-      "Country B",
-      "Country C",
-      "Country D",
-      "Country E"
-    ],
+    "labelOrder": ["A", "B", "C", "D", "E", "F"],
     "sortParameter": 0,
     "showLabels": true,
     "showValues": false,

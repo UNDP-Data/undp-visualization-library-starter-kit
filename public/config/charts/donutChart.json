@@ -21,7 +21,7 @@
     "graphTitle": "Graph Title",
     "suffix": "",
     "prefix": "",
-    "sources":[
+    "sources": [
       {
         "source": "TBA",
         "link": "https://www.undp.org/"
@@ -30,6 +30,8 @@
     "graphDescription": "Sample Data",
     "footNote": "",
     "radius": 200,
+    "width": 800,
+    "height": 600,
     "strokeWidth": 40,
     "graphLegend": true,
     "backgroundColor": "#FAFAFA",

@@ -1,13 +1,13 @@
 // import { GriddedGraphsFromConfig } from '@undp-data/undp-visualization-library';
-// import { SingleGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
-import { MultiGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
+import { SingleGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
+// import { MultiGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
 import '@undp-data/undp-visualization-library/dist/style.css';
 
 function App() {
   return (
-    <div className='flex-div flex-column'>
+    <div style={{ display: 'flex', gap: '16px', flexDirection: 'column' }}>
       {/* Single Charts */}
-      {/* <SingleGraphDashboardFromConfig config='/config/charts/barChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/barChart.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/groupedBarChart.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/stackedBarChart.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/lineChart.json' />
@@ -15,7 +15,7 @@ function App() {
       <SingleGraphDashboardFromConfig config='/config/charts/choroplethMap.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/donutChart.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/circlePacking.json' />
-      <SingleGraphDashboardFromConfig config='/config/charts/scatterPlot.json' /> */}
+      <SingleGraphDashboardFromConfig config='/config/charts/scatterPlot.json' />
 
       {/* Animated Single Charts */}
       {/* <SingleGraphDashboardFromConfig config='/config/chartsAnimated/animatedBarChart.json' />
@@ -32,7 +32,7 @@ function App() {
       {/* <GriddedGraphsFromConfig config='/config/chartsGridded/griddedChart.json' /> */}
 
       {/* Dashboard */}
-      <MultiGraphDashboardFromConfig config='/config/dashboards/dashboard.json' />
+      {/* <MultiGraphDashboardFromConfig config='/config/dashboards/dashboard.json' /> */}
     </div>
   );
 }
