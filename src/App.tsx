@@ -1,5 +1,5 @@
-// import { GriddedGraphsFromConfig } from '@undp-data/undp-visualization-library';
 import { SingleGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
+// import { GriddedGraphsFromConfig } from '@undp-data/undp-visualization-library';
 // import { MultiGraphDashboardFromConfig } from '@undp-data/undp-visualization-library';
 import '@undp-data/undp-visualization-library/dist/style.css';
 
@@ -7,14 +7,25 @@ function App() {
   return (
     <div style={{ display: 'flex', gap: '16px', flexDirection: 'column' }}>
       {/* Single Charts */}
-      <SingleGraphDashboardFromConfig config='/config/charts/barChart.json' />
-      <SingleGraphDashboardFromConfig config='/config/charts/groupedBarChart.json' />
-      <SingleGraphDashboardFromConfig config='/config/charts/stackedBarChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/verticalBarChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/horizontalBarChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/verticalGroupedBarChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/horizontalGroupedBarChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/verticalStackedBarChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/horizontalStackedBarChart.json' />
+
       <SingleGraphDashboardFromConfig config='/config/charts/lineChart.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/multiLineChart.json' />
+
+      <SingleGraphDashboardFromConfig config='/config/charts/horizontalDumbbellChart.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/verticalDumbbellChart.json' />
+
       <SingleGraphDashboardFromConfig config='/config/charts/choroplethMap.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/biVariateChoroplethMap.json' />
+
       <SingleGraphDashboardFromConfig config='/config/charts/donutChart.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/circlePacking.json' />
+      <SingleGraphDashboardFromConfig config='/config/charts/treeMap.json' />
       <SingleGraphDashboardFromConfig config='/config/charts/scatterPlot.json' />
 
       {/* Animated Single Charts */}

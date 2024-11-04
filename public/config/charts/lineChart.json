@@ -19,7 +19,7 @@
     "graphTitle": "Simple Line Chart",
     "graphDescription": "Human Development Index, 2020",
     "footNote": "",
-    "sources":[
+    "sources": [
       {
         "source": "UNDP",
         "link": "https://hdr.undp.org/"
@@ -30,7 +30,7 @@
     "minHeight": 400,
     "relativeHeight": 1.2,
     "padding": "16px",
-    "topMargin": 64,
+    "topMargin": 24,
     "bottomMargin": 24,
     "noOfXTicks": 5,
     "leftMargin": 24,

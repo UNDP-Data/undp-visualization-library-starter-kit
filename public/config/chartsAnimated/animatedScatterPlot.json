@@ -31,7 +31,7 @@
     "graphDescription": "Sample Data",
     "padding": "1rem",
     "footNote": "",
-    "sources":[
+    "sources": [
       {
         "source": "TBA",
         "link": "https://www.undp.org/"
@@ -49,8 +49,8 @@
     "backgroundColor": "#FAFAFA",
     "leftMargin": 50,
     "rightMargin": 50,
-    "topMargin": 50,
-    "bottomMargin": 50,
+    "topMargin": 0,
+    "topMargin": 0,
     "relativeHeight": 0.7,
     "tooltip": "{{data.label}}<br>x: {{data.x}}<br>y: {{data.y}}",
     "highlightAreaColor": "#EDEFF0",

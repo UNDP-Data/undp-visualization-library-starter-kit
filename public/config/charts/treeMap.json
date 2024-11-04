@@ -1,5 +1,5 @@
 {
-  "graphType": "circlePacking",
+  "graphType": "treeMap",
   "dataSettings": {
     "dataURL": "/data/donut.csv",
     "fileType": "csv"
@@ -20,7 +20,7 @@
   ],
   "graphSettings": {
     "colors": ["#006eb5", "#5DD4F0", "#02A38A", "#E78625", "#E0529E"],
-    "graphTitle": "Circle Packing",
+    "graphTitle": "Tree Map",
     "graphDescription": "Sample Data",
     "footNote": "",
     "sources": [
@@ -33,8 +33,8 @@
     "height": 600,
     "suffix": "",
     "prefix": "",
-    "leftMargin": 50,
-    "rightMargin": 50,
+    "leftMargin": 0,
+    "rightMargin": 0,
     "colorDomain": [
       "Country A",
       "Country B",

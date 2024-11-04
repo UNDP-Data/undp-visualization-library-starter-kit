@@ -39,10 +39,10 @@
   ],
   "graphSettings": {
     "graphID": "GraphID",
-    "graphTitle": "Simple Bar Chart with Filters",
+    "graphTitle": "Vertical Bar Chart with Filters",
     "graphDescription": "Sample Data",
     "footNote": ".",
-    "sources":[
+    "sources": [
       {
         "source": "TBA",
         "link": "https://www.undp.org/"

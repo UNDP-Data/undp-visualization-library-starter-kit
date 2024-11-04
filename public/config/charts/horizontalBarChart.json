@@ -1,5 +1,5 @@
 {
-  "graphType": "verticalBarChart",
+  "graphType": "horizontalBarChart",
   "debugMode": true,
   "dataSettings": {
     "dataURL": "/data/basic.csv",
@@ -13,28 +13,15 @@
     {
       "chartConfigId": "size",
       "columnId": "Indicator-01"
-    }
-  ],
-  "dataSelectionOptions": [
+    },
     {
-      "label": "View by",
-      "allowedColumnIds": [
-        {
-          "value": "Indicator-01",
-          "label": "Indicator 1"
-        },
-        {
-          "value": "Indicator-02",
-          "label": "Indicator 2"
-        }
-      ],
-      "chartConfigId": "size",
-      "ui": "radio"
+      "chartConfigId": "color",
+      "columnId": "Region"
     }
   ],
   "graphSettings": {
     "graphID": "GraphID",
-    "graphTitle": "Vertical Bar Chart with Data Selection",
+    "graphTitle": "Horizontal Bar Chart",
     "graphDescription": "Sample Data",
     "footNote": ".",
     "sources": [
@@ -54,13 +41,17 @@
     "leftMargin": 40,
     "rightMargin": 40,
     "maxBarThickness": 64,
-    "maxNumberOfBars": 20,
+    "maxNumberOfBars": 10,
     "minBarThickness": 24,
     "barPadding": 0.1,
     "suffix": "",
     "prefix": "",
     "mode": "light",
     "backgroundColor": "#FAFAFA",
+    "colors": ["#006eb5", "#5DD4F0", "#02A38A"],
+    "colorDomain": ["Region A", "Region B", "Region C"],
+    "colorLegendTitle": "Regions",
+    "showColorScale": true,
     "sortData": "desc",
     "showNAColor": false,
     "showLabels": true,
@@ -69,7 +60,7 @@
     "maxValue": 50,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
-    "tooltip": "Indicator-01: {{data.data['Indicator-01']}}<br>Indicator-02: {{data.data['Indicator-02']}}",
+    "tooltip": "Indicator-01: {{data.size}}",
     "highlightedDataPoints": [],
     "graphDownload": true,
     "dataDownload": true,

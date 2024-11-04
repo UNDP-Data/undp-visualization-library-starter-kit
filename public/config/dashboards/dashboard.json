@@ -24,7 +24,7 @@
             "graphType": "statCard",
             "dataFilters": [
               {
-                "column": "HDI",
+                "column": "Indicator-01",
                 "excludeValues": [null]
               }
             ],
@@ -71,7 +71,7 @@
               "keyColumn": "Continent",
               "aggregationColumnsSetting": [
                 {
-                  "column": "HDI",
+                  "column": "Indicator-01",
                   "aggregationMethod": "average"
                 }
               ]
@@ -82,7 +82,7 @@
                 "chartConfigId": "label"
               },
               {
-                "columnId": "HDI",
+                "columnId": "Indicator-01",
                 "chartConfigId": "size"
               }
             ],
@@ -92,7 +92,7 @@
               "rightMargin": 64,
               "maxBarThickness": 200,
               "topMargin": 32,
-              "tooltip": "{{data.data.staff_category}} <strong>{{data.data.count}}</strong>",
+              "tooltip": "{{data.label}} <strong>{{data.data.count}}</strong>",
               "padding": "1.25rem",
               "graphTitle": "Vertical Bar Chart with Data Transformation"
             }
@@ -102,7 +102,7 @@
             "columnWidth": 2,
             "graphDataConfiguration": [
               {
-                "columnId": "HDI",
+                "columnId": "Indicator-01",
                 "chartConfigId": "x"
               },
               {
@@ -112,7 +112,7 @@
             ],
             "settings": {
               "backgroundColor": true,
-              "tooltip": "{{data.data.country_name}} <strong>{{data.data.count}}</strong>",
+              "tooltip": "{{data.data['Official Country Name']}} <strong>{{data.x}}</strong>",
               "padding": "1.25rem",
               "mapProperty": "ISO3",
               "domain": [0.4, 0.55, 0.8, 1],

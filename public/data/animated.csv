@@ -12,7 +12,7 @@ Country J,USA,31,8,2020,Region A,Category 2
 Country K,GIN,5,21,2020,Region B,Category 1
 Country L,ZMB,19,14,2020,Region C,Category 2
 Country A,BRA,27,7,2021,Region A,Category 1
-Country B,CHN,26,0,2021,Region B,Category 2
+Country B,CHN,26,2,2021,Region B,Category 2
 Country C,ZAF,0,15,2021,Region C,Category 1
 Country D,DZA,33,24,2021,Region A,Category 2
 Country E,KEN,27,35,2021,Region B,Category 1

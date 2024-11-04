@@ -1,5 +1,5 @@
 {
-  "graphType": "choroplethMap",
+  "graphType": "biVariateChoroplethMap",
   "dataSettings": {
     "dataURL": "/data/map.csv",
     "fileType": "csv"
@@ -10,24 +10,29 @@
       "columnId": "Indicator-01"
     },
     {
+      "chartConfigId": "y",
+      "columnId": "Indicator-02"
+    },
+    {
       "chartConfigId": "countryCode",
       "columnId": "Country Code"
     }
   ],
   "graphSettings": {
-    "graphTitle": "Choropleth Map",
+    "graphTitle": "bivariate Choropleth Map",
     "graphDescription": "Human Development Index, 2020",
     "footNote": "",
     "sources": [
       {
-        "source": "UNDP",
+        "source": "Sample data",
         "link": "https://hdr.undp.org/"
       }
     ],
     "width": 800,
     "height": 600,
     "minHeight": 800,
-    "domain": [0.55, 0.7, 0.8],
+    "xDomain": [0.55, 0.7, 0.8, 0.9],
+    "yDomain": [0.55, 0.7, 0.8, 0.9],
     "colorLegendTitle": "Legend Title",
     "categorical": false,
     "scale": 180,
@@ -39,7 +44,7 @@
     "relativeHeight": 0.7,
     "padding": "1rem",
     "isWorldMap": true,
-    "tooltip": "{{data.data['Official Country Name']}}: {{data.x}}",
+    "tooltip": "Indicator-01: {{data.x}}<br>Indicator-02: {{data.y}}",
     "showColorScale": true,
     "zoomScaleExtend": [1, 8],
     "zoomTranslateExtend": [

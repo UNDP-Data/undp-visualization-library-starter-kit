@@ -1,5 +1,5 @@
 {
-  "graphType": "verticalBarChart",
+  "graphType": "horizontalGroupedBarChart",
   "debugMode": true,
   "dataSettings": {
     "dataURL": "/data/basic.csv",
@@ -12,19 +12,15 @@
     },
     {
       "chartConfigId": "size",
-      "columnId": "Indicator-01"
-    },
-    {
-      "chartConfigId": "color",
-      "columnId": "Region"
+      "columnId": ["Indicator-01", "Indicator-02"]
     }
   ],
   "graphSettings": {
     "graphID": "GraphID",
-    "graphTitle": "Simple Bar Chart",
+    "graphTitle": "Horizontal Grouped Bar Chart",
     "graphDescription": "Sample Data",
     "footNote": ".",
-    "sources":[
+    "sources": [
       {
         "source": "TBA",
         "link": "https://www.undp.org/"
@@ -36,32 +32,31 @@
     "minHeight": 400,
     "relativeHeight": 1.2,
     "padding": "16px",
-    "topMargin": 16,
-    "bottomMargin": 16,
-    "leftMargin": 40,
+    "topMargin": 24,
+    "bottomMargin": 20,
+    "leftMargin": 64,
     "rightMargin": 40,
-    "maxBarThickness": 64,
+    "maxBarThickness": 100,
     "maxNumberOfBars": 10,
     "minBarThickness": 24,
-    "barPadding": 0.1,
+    "barPadding": 0.2,
     "suffix": "",
     "prefix": "",
     "mode": "light",
     "backgroundColor": "#FAFAFA",
-    "colors": ["#006eb5", "#5DD4F0", "#02A38A"],
-    "colorDomain": ["Region A", "Region B", "Region C"],
-    "colorLegendTitle": "Regions",
+    "colors": ["#006eb5", "#5DD4F0"],
+    "colorDomain": ["Indicator 1", "Indicator 2"],
+    "colorLegendTitle": "Indicators",
     "showColorScale": true,
-    "sortData": "desc",
-    "showNAColor": false,
+    "labelOrder": ["A", "B", "C", "D", "E", "F"],
+    "sortParameter": 0,
     "showLabels": true,
-    "showValues": true,
+    "showValues": false,
     "showTicks": false,
     "maxValue": 50,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
-    "tooltip": "Indicator-01: {{data.data['Indicator-01']}}",
-    "highlightedDataPoints": [],
+    "tooltip": "Indicator-01: {{data.size[0]}}<br>Indicator-02: {{data.size[1]}}",
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,

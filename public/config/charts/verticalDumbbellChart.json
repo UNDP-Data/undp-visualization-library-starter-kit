@@ -1,5 +1,5 @@
 {
-  "graphType": "verticalBarChart",
+  "graphType": "verticalDumbbellChart",
   "debugMode": true,
   "dataSettings": {
     "dataURL": "/data/basic.csv",
@@ -11,32 +11,15 @@
       "columnId": "Country"
     },
     {
-      "chartConfigId": "size",
-      "columnId": "Indicator-01"
-    }
-  ],
-  "dataSelectionOptions": [
-    {
-      "label": "View by",
-      "allowedColumnIds": [
-        {
-          "value": "Indicator-01",
-          "label": "Indicator 1"
-        },
-        {
-          "value": "Indicator-02",
-          "label": "Indicator 2"
-        }
-      ],
-      "chartConfigId": "size",
-      "ui": "radio"
+      "chartConfigId": "x",
+      "columnId": ["Indicator-01", "Indicator-03"]
     }
   ],
   "graphSettings": {
-    "graphID": "GraphID",
-    "graphTitle": "Vertical Bar Chart with Data Selection",
+    "graphID": "GrpahID",
+    "graphTitle": "Horizontal Dumbbell Chart",
     "graphDescription": "Sample Data",
-    "footNote": ".",
+    "footNote": "",
     "sources": [
       {
         "source": "TBA",
@@ -49,28 +32,27 @@
     "minHeight": 400,
     "relativeHeight": 1.2,
     "padding": "16px",
-    "topMargin": 16,
-    "bottomMargin": 16,
-    "leftMargin": 40,
+    "topMargin": 0,
+    "bottomMargin": 0,
+    "leftMargin": 24,
     "rightMargin": 40,
     "maxBarThickness": 64,
     "maxNumberOfBars": 20,
-    "minBarThickness": 24,
+    "minBarThickness": 32,
     "barPadding": 0.1,
     "suffix": "",
     "prefix": "",
     "mode": "light",
     "backgroundColor": "#FAFAFA",
-    "sortData": "desc",
-    "showNAColor": false,
+    "colors": ["#006eb5", "#5DD4F0"],
+    "colorDomain": ["Indicator 1", "Indicator 2"],
+    "colorLegendTitle": "Indicators",
+    "showColorScale": true,
     "showLabels": true,
     "showValues": true,
     "showTicks": false,
-    "maxValue": 50,
-    "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
     "tooltip": "Indicator-01: {{data.data['Indicator-01']}}<br>Indicator-02: {{data.data['Indicator-02']}}",
-    "highlightedDataPoints": [],
     "graphDownload": true,
     "dataDownload": true,
     "rtl": false,

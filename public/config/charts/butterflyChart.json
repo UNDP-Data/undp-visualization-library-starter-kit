@@ -25,7 +25,7 @@
     "leftBarTitle": "Left Bar Title",
     "rightBarTitle": "Right Bar Title",
     "footNote": "Footnote describing data source or additional details.",
-    "sources":[
+    "sources": [
       {
         "source": "TBA",
         "link": "https://www.undp.org/"
@@ -38,8 +38,7 @@
     "padding": "1rem",
     "leftMargin": 50,
     "rightMargin": 50,
-    "topMargin": 50,
-    "bottomMargin": 50,
+    "topMargin": 0,
     "colors": ["#006eb5", "#5DD4F0"],
     "colorLegendTitle": "",
     "relativeHeight": 0.8,

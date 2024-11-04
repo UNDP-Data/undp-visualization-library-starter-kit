@@ -36,7 +36,7 @@
     "graphLegend": true,
     "backgroundColor": "#FAFAFA",
     "padding": "1rem",
-    "tooltip": "{{data.value}}",
+    "tooltip": "{{data.size}}",
     "graphID": "GraphID",
     "graphDownload": true,
     "dataDownload": true,

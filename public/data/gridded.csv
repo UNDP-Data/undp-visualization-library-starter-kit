@@ -1,4 +1,4 @@
-﻿"Country Code","Year","HDI","Official Country Name","Continent","Sub-region","UNDP Bureau","Income Group","Latitude (average)","Longitude (average)"
+﻿"Country Code","Year","Indicator-01","Official Country Name","Continent","Sub-region","UNDP Bureau","Income Group","Latitude (average)","Longitude (average)"
 "AFG","1990","0.28","Afghanistan","Asia","Southern Asia","UNDP_AP","Low income","33","65"
 "AFG","1991","0.29","Afghanistan","Asia","Southern Asia","UNDP_AP","Low income","33","65"
 "AFG","1992","0.3","Afghanistan","Asia","Southern Asia","UNDP_AP","Low income","33","65"
