@@ -69,7 +69,7 @@
     "maxValue": 50,
     "minValue": 0,
     "refValues": [{ "value": 16, "text": "Reference", "color": "#000" }],
-    "tooltip": "Indicator-01: {{data.data.Indicator-01}}",
+    "tooltip": "Indicator-01: {{data.data['Indicator-01']}}",
     "highlightedDataPoints": [],
     "graphDownload": true,
     "dataDownload": true,
